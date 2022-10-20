@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+
+.left {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.right {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+a.button {
+    display: block;
+    text-align: center;
+    padding-top: 64px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+}

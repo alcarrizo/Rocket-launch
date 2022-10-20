@@ -33,12 +33,7 @@ body {
 
 }
 
-.body-state1 .rocket {
-    transition: none;
-}
-
-.body-state3 .rocket,
-.body-state4 .rocket {
+.rocket.flying {
     bottom: 1000px;
 }
 

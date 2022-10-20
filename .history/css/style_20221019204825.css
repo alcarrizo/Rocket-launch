@@ -33,12 +33,7 @@ body {
 
 }
 
-.body-state1 .rocket {
-    transition: none;
-}
-
-.body-state3 .rocket,
-.body-state4 .rocket {
+.rocket.flying {
     bottom: 1000px;
 }
 
@@ -66,30 +61,23 @@ a.button {
 
 }
 
-.state1,
-.state2,
-.state3,
-.state4,
-.state5 {
+.state1 {
+    display: none;
+
+}
+
+.state2 {
     display: none;
 }
 
-body.body-state1 .state1 {
-    display: block;
+.state3 {
+    display: none;
 }
 
-body.body-state2 .state2 {
-    display: block;
+.state4 {
+    display: none;
 }
 
-body.body-state3 .state3 {
-    display: block;
-}
-
-body.body-state4 .state4 {
-    display: block;
-}
-
-body.body-state5 .state5 {
-    display: block;
+.state5 {
+    display: none;
 }

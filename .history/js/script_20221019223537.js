@@ -28,7 +28,7 @@ var changeState = function (state) {
             CountDownNum -= 1;
             document.getElementById('countdown').innerHTML = CountDownNum;
 
-            if (CountDownNum <= 0) {
+            if (CountDownNum <= -1) {
                 changeState(3);
 
             }

@@ -19,20 +19,14 @@ var CountDownNum = 10;
 var changeState = function (state) {
     document.body.className = 'body-state' + state;
     clearInterval(timer);
-    if (state != 2 && document.getElementById('countdown').innerHTML != 10) {
-        CountDownNum = 10;
-        document.getElementById('countdown').innerHTML = CountDownNum;
-    }
     if (state == 2) {
         timer = setInterval(() => {
-            CountDownNum -= 1;
             document.getElementById('countdown').innerHTML = CountDownNum;
-
-            if (CountDownNum <= 0) {
+            CountDownNum -= 1;
+            if (CountDownNum <= -1) {
                 changeState(3);
-
             }
-        }, 200);
+        }, 1000);
     }
     else if (state == 3) {
         var success = setTimeout(() => {

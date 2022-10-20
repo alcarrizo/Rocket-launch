@@ -1,0 +1,28 @@
+body {
+    display: flex;
+}
+
+.left {
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.right {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+a.button {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 40px;
+    height: 100px;
+    width: 100px;
+    font-size: 15px;
+    background-color: green;
+
+}

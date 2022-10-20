@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+}
+
+.cool {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+}
+
+.cool.red {
+    background-color: red;
+}

@@ -25,10 +25,9 @@ var changeState = function (state) {
     }
     if (state == 2) {
         timer = setInterval(() => {
-            CountDownNum -= 1;
             document.getElementById('countdown').innerHTML = CountDownNum;
-
-            if (CountDownNum <= 0) {
+            CountDownNum -= 1;
+            if (CountDownNum <= -1) {
                 changeState(3);
 
             }
