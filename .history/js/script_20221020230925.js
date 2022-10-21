@@ -1,5 +1,5 @@
 setTimeout(() => {
-    location.href = "rocket.html"
+
 }, 2000);
 
 var car = {
